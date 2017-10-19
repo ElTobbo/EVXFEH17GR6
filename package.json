@@ -11,11 +11,11 @@
     "url": "git+https://github.com/ElTobbo/EVXFEH17GR6.git"
   },
   "keywords": [
-    "tenta",
-    "html",
-    "css"
+    "gruparbete",
+    "scss",
+    "gulp"
   ],
-  "author": "Sohail Hasware <saab.viggen@live.se>",
+  "author": "Tobias Ekman, Johan Månsson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ElTobbo/EVXFEH17GR6.git"

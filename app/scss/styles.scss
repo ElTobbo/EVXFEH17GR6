@@ -1,3 +1,20 @@
+/// UTILITIES:
+/// generar inte css
+/// "initierar" projektet
+@import 'utilities/functions';
+@import 'utilities/helpers';
+@import 'utilities/mixins';
+@import 'utilities/utilities_index';
+@import 'utilities/variables';
+// BASE:
+// övergripande, normalizer, typsnitt
+@import 'base/base_index';
+//MODULES
+//enskilda komponenter
+@import 'modules/modules_index';
+//generell layout
+@import 'layout/layout_index';
+
 .testing {
     width: percentage(5/7);
     background: red;
