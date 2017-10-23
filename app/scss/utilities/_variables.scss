@@ -1,0 +1,19 @@
+/// Karta för brytpunkter
+
+$breakpoints: (
+    'mobil':  ( min-width:  40.000em ),
+    'platta': ( min-width:  48.000em ),
+    'pc':  ( min-width: 60.000em ),
+    'wide':  ( min-width: 75.000em )
+  ) !default;
+
+  /*Färgkarta*/
+  
+$colors: (
+  'profile': lightseagreen, 
+  'accent': seagreen,
+  'secondary': turquoise,
+  'filter': lightseagreen,
+  'background': whitesmoke,
+  'card': lightslategrey
+) !default;
