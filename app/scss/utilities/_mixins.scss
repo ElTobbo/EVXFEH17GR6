@@ -13,3 +13,9 @@
         no value could be retrieved from `#{$breakpoint}`. " + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
     }
+
+    @mixin circle($size) {
+      width: $size;
+      height: $size;
+      border-radius: 100%;
+ }

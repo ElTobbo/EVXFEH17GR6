@@ -1,14 +1,27 @@
-*{
-    box-sizing: border-box;
-}
-
-.main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 3em 0; 
-    padding: 0.5em;
-    grid-gap:3em;
-    width:100%;
-
-}
-
+.main {
+    display: block;
+    @supports (grid-area: auto) {
+    @include respond-to ('platta') {
+ 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 3em 0;
+        padding: 0.5em;
+        grid-gap: 3em;
+        width: 100%;
+ 
+        
+            @include respond-to ('pc') {
+                
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    margin: 3em 0;
+                    padding: 0.5em;
+                    grid-gap: 3em;
+                    width: 100%;
+                }
+            }
+        }
+ 
+    }
+ 
