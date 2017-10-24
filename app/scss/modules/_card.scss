@@ -1,0 +1,43 @@
+.card-img {
+    
+        @extend %card;
+            width: 100%;
+            filter: grayscale(100%);
+            &:hover{
+                filter: sepia(100%);
+            }
+    
+    }
+    
+    .grid-card{
+    
+        .img-grid{
+    
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr;
+    
+        filter: grayscale(100%);
+    
+        &:hover{
+    
+            filter: sepia(100%);
+            
+    
+        }
+    
+    }
+    
+        img{
+    
+            width:80%;
+    
+            height:auto;
+    
+            padding:0px;
+    
+            margin: 0px;
+    
+        }
+    
+    }

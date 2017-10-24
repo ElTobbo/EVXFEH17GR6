@@ -1,181 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title></title>
-<!--build:css css/styles.min.css-->
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/print.css">
-<!--endbuild-->
+  <meta charset="UTF-8">
+  <title></title>
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/print.css">
+  <!--endbuild-->
 </head>
+
 <body>
-   <header>
-        <div class="menu">
-                <nav role="navigation" id="nav">
-                      <input class="trigger" type="checkbox" id="mainNavButton">
-                      <label for="mainNavButton" class="menu" onclick>Menu</label>
-                       <ul>
-                         <li><a href="#">Hem</a></li>
-                         <li class="submenu"><a href="#" title="Musik">Album</a>
-                           <ul class="megamenu">
-                             <ul>
-                               <h4>Audioslave</h4>
-                               <li><a href="#">Audioslave</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             <ul>
-                               <h4>Brave</h4>
-                               <li><a href="#">Marillion</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             <ul>
-                               <h4>Enter The Hunt</h4>
-                               <li><a href="#">Enter The Hunt</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             <ul>
-                               <h4>Four On The Floor</h4>
-                               <li><a href="#">Juliette & The Licks</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             <ul>
-                               <h4>Generation 13</h4>
-                               <li><a href="#">Saga</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             <ul>
-                               <h4>Graceland</h4>
-                               <li><a href="#">Paul Simon</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             
-                             <ul>
-                               <h4>Is This Desire?</h4>
-                               <li><a href="#">PJ Harvey</a></li>
-                               <li><a href="#">Låtar</a></li>
-                               <li><a href="#">Medverkande</a></li>
-                               <li><a href="#">Biografi</a></li>
-                             </ul>
-                             
-                             <ul>
-                             <h4>Last In Line</h4>
-                             <li><a href="#">Dio</a></li>
-                             <li><a href="#">Låtar</a></li>
-                             <li><a href="#">Medverkande</a></li>
-                             <li><a href="#">Biografi</a></li>
-                           </ul>	
-                           
-                           <ul>
-                            <h4>Perfect Strangers</h4>
-                            <li><a href="#">Deep Purple</a></li>
-                            <li><a href="#">Låtar</a></li>
-                            <li><a href="#">Medverkande</a></li>
-                            <li><a href="#">Biografi</a></li>
-                          </ul>
-          
-                          <ul>
-                            <h4>Us</h4>
-                            <li><a href="#">Peter Gabriel</a></li>
-                            <li><a href="#">Låtar</a></li>
-                            <li><a href="#">Medverkande</a></li>
-                            <li><a href="#">Biografi</a></li>
-                          </ul>
-                          <ul>
-                            <h4>Fanmail</h4>
-                            <form >
-                      
-                      <ul class="flex-form">
-                        
-                        <li>
-                        <label  for="first-name" class="form-label">Förnamn</label>
-                        <input type="text" id="first-name" placeholder="Skriv ditt förnamn här">
-                        </li>
-                        <li>
-                        <label  for="last-name" class="form-label">Ekman</label>
-                        <input type="text" id="last-name" placeholder="Skriv ditt efternamn här">
-                        </li>
-                        <li>
-                        <label  for="email" class="form-label">E-post</label>
-                        <input type="email" id="email" placeholder="Skriv din e-post här">
-                        </li>
-                        <li>
-                        <label  for="phone" class="form-label">Mobil</label>
-                        <input type="tel" id="phone" placeholder="Skriv ditt nummer här">
-                        </li>
-                        <!--<li>
+  <header>
+    <div class="logo">
+      <h1>ToJo</h1>
+      <h4>productions</h4>
+    </div>
+    <div class="menu">
+      <nav role="navigation" id="nav">
+        <input class="trigger" type="checkbox" id="mainNavButton">
+        <label for="mainNavButton" class="menu" onclick>Menu</label>
+        <ul>
+          <li>
+            <a href="#">Hem</a>
+          </li>
+          <li class="submenu">
+            <a href="#" title="innehåll">Innehåll</a>
+            <ul class="megamenu">
+              <ul>
+                <h4>Tänkare</h4>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Motton</a>
+                </li>
+                <li>
+                  <a href="#">Anekdoter</a>
+                </li>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+              </ul>
+              <ul>
+                <h4>Horoskop</h4>
+                <li>
+                  <a href="#">Stjärntecken</a>
+                </li>
+                <li>
+                  <a href="#">Astrologi</a>
+                </li>
+                <li>
+                  <a href="#">Egenskaper</a>
+                </li>
+                <li>
+                  <a href="#">Zodiac</a>
+                </li>
+              </ul>
+              <ul>
+                <h4>Bill Gates</h4>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Bedrifter</a>
+                </li>
+                <li>
+                  <a href="#">Förmögenhet</a>
+                </li>
+                <li>
+                  <a href="#">Innovationer</a>
+                </li>
+              </ul>
+              <ul>
+                <h4>Martin Luther King Jr.</h4>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Bedrifter</a>
+                </li>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Arv</a>
+                </li>
+              </ul>
+              <ul>
+                <h4>Alfred E. Neumann</h4>
+                <li>
+                  <a href="#">Bedrifter</a>
+                </li>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Kulturell relevans</a>
+                </li>
+              </ul>
+              <ul>
+                <h4>Barry Soetoro</h4>
+                <li>
+                  <a href="#">Bedrifter</a>
+                </li>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Arv</a>
+                </li>
+              </ul>
+
+              <ul>
+                <h4>Guy Fawkes</h4>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Bedrifter</a>
+                </li>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Arv</a>
+                </li>
+              </ul>
+
+              <ul>
+                <h4>Mohandas Gandhi</h4>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Bedrifter</a>
+                </li>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Arv</a>
+                </li>
+              </ul>
+
+              <ul>
+                <h4>Salvador Dali</h4>
+                <li>
+                  <a href="#">Biografi</a>
+                </li>
+                <li>
+                  <a href="#">Citat</a>
+                </li>
+                <li>
+                  <a href="#">Verk</a>
+                </li>
+                <li>
+                  <a href="#">Arv</a>
+                </li>
+              </ul>
+
+              <ul>
+                <h4>Demotivational</h4>
+                <li>
+                  <a href="#">Despair</a>
+                </li>
+                <li>
+                  <a href="#">Honesty</a>
+                </li>
+                <li>
+                  <a href="#">Realism</a>
+                </li>
+                <li>
+                  <a href="#">Statement</a>
+                </li>
+              </ul>
+              <!--<ul>
+                <h4>Fanmail</h4>
+                <form>
+
+                  <ul class="flex-form">
+
+                    <li>
+                      <label for="first-name" class="form-label">Förnamn</label>
+                      <input type="text" id="first-name" placeholder="Skriv ditt förnamn här">
+                    </li>
+                    <li>
+                      <label for="last-name" class="form-label">Ekman</label>
+                      <input type="text" id="last-name" placeholder="Skriv ditt efternamn här">
+                    </li>
+                    <li>
+                      <label for="email" class="form-label">E-post</label>
+                      <input type="email" id="email" placeholder="Skriv din e-post här">
+                    </li>
+                    <li>
+                      <label for="phone" class="form-label">Mobil</label>
+                      <input type="tel" id="phone" placeholder="Skriv ditt nummer här">
+                    </li>
+                    <li>
                         <label  for="message" class="form-label">Message</label>
                         <textarea id="message" rows="6" placeholder="Enter your message here"> </textarea>
-                        </li>-->
-                        <li><button type="submit">Submit</button></li>
-                        
-                      </ul>
-                      
-                    </form>	
-                    
-                    
-                          </ul>
-                        </ul>
-                         </li>
-                         <li><a href="#">Om oss</a></li>
-                         <li><a href="#">Kontakt</a></li>
-                         <li><a href="#">Intryck</a></li>
-                         <li><i class="fa fa-fire" aria-hidden="true"></i></li>
-                       <li><i class="fa fa-volume-up" aria-hidden="true"></i></li>
-                            
-                     </ul>
-                        
-                            
-                       
-                     </nav>
-          </div>       
-</header> 
+                        </li>
+                    <li>
+                      <button type="submit">Submit</button>
+                    </li>
 
-<div class="main">
-  <div class="card-box1">
-      <h2>lorem ipsum</h2>
-      <img class ="card-img" src="http://www.lifo.gr/icache/600/315/2/1256253_720_537432_0933f05e10-b612e82b648408a8.jpg" />
-  </div>
-  <div class="card-box2">
-      <h2>lorem ipsum</h2>
-      <img class ="card-img" src="http://www.clipartlord.com/wp-content/uploads/2013/02/bill-gates.png" />
-  </div>
-  <div class="card-box3">
-      <h2>lorem ipsum</h2>
-      <img class ="card-img" src="https://i.pinimg.com/474x/78/71/61/787161a81cb33562b9b826c218e352a2.jpg" />
-  </div>
-  <div class="card-box4">
-      <h2>lorem ipsum</h2>
-      <img class ="card-img" src="https://i.pinimg.com/736x/af/f0/aa/aff0aaf14bb8e23ab99a345c30d92013--gandhi-life-mahatma-gandhi-quotes.jpg" />
-  </div>
-  <div class="card-box5">
-      <h2>lorem ipsum</h2>
-      <img class ="card-img" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAkaAAAAJDRmYTExN2MxLTVkZmMtNDZhYi04MjgwLTY0ZmFmNzY4MjEwZQ.jpg" />
-  </div>
-  <div class="grid-card">
-      <h2>lorem ipsum</h2>
-      <img class ="card-img" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Bull_head.png" />
-      <img class ="card-img" src="https://i.pinimg.com/236x/f2/b9/13/f2b913f4cf38be18cfbd9fbcb4b125ac--capricorn-tattoo-zodiac-tattoos.jpg" />
-      <img class ="card-img" src="http://gaia.adage.com/images/bin/image/photo/print080129-shepfairey-3of3-20080129-110401-lg1.jpg?1201735210" />
-      <img class ="card-img" src="https://pbs.twimg.com/media/A4gtCZ9CEAAqnOi.jpg" />
-  </div>
+                  </ul>
 
-</div>
-<!--build:js js/main.min.js -->
-<script src="js/lib/a-library.js"></script>
-<script src="js/lib/another-library.js"></script>
-<script src="js/main.js"></script>
-<!-- endbuild -->
+                </form> 
+
+
+              </ul> -->
+            </ul>
+          </li>
+          <li>
+            <a href="#">Om oss</a>
+          </li>
+          <li>
+            <a href="#">Kontakt</a>
+          </li>
+          <li>
+            <a href="#">Intryck</a>
+          </li>
+          <li>
+            <i class="fa fa-fire" aria-hidden="true"></i>
+          </li>
+          <li>
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+          </li>
+
+        </ul>
+
+
+
+      </nav>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="card">
+      <h2>lorem ipsum</h2>
+      <img class="card-img" src="http://www.lifo.gr/icache/600/315/2/1256253_720_537432_0933f05e10-b612e82b648408a8.jpg" />
+    </div>
+    <div class="card">
+      <h2>lorem ipsum</h2>
+      <img class="card-img" src="http://www.clipartlord.com/wp-content/uploads/2013/02/bill-gates.png" />
+    </div>
+    <div class="card">
+      <h2>lorem ipsum</h2>
+      <img class="card-img" src="https://i.pinimg.com/474x/78/71/61/787161a81cb33562b9b826c218e352a2.jpg" />
+    </div>
+    <div class="card">
+      <h2>lorem ipsum</h2>
+      <img class="card-img" src="https://i.pinimg.com/736x/af/f0/aa/aff0aaf14bb8e23ab99a345c30d92013--gandhi-life-mahatma-gandhi-quotes.jpg"
+      />
+    </div>
+    <div class="card">
+      <h2>lorem ipsum</h2>
+      <img class="card-img" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAkaAAAAJDRmYTExN2MxLTVkZmMtNDZhYi04MjgwLTY0ZmFmNzY4MjEwZQ.jpg"
+      />
+    </div>
+    <div class="grid-card">
+      <h2>lorem ipsum</h2>
+      <div class="img-grid">
+        <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Bull_head.png" />
+        <img class="card-img" src="https://i.pinimg.com/236x/f2/b9/13/f2b913f4cf38be18cfbd9fbcb4b125ac--capricorn-tattoo-zodiac-tattoos.jpg"
+        />
+        <img class="card-img" src="http://gaia.adage.com/images/bin/image/photo/print080129-shepfairey-3of3-20080129-110401-lg1.jpg?1201735210"
+        />
+        <img class="card-img" src="https://pbs.twimg.com/media/A4gtCZ9CEAAqnOi.jpg" />
+      </div>
+    </div>
+
+  </div>
+  <!--build:js js/main.min.js -->
+  <script src="js/lib/a-library.js"></script>
+  <script src="js/lib/another-library.js"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
 </body>
+
 </html>

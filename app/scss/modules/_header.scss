@@ -1,0 +1,11 @@
+header{
+    background: map-get($colors, base);
+}
+
+@include respond-to("platta") {
+header{
+    display: flex;
+    flex-direction: row wrap;
+}
+
+}

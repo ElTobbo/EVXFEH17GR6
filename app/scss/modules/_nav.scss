@@ -2,7 +2,7 @@
 #nav {
     width: 100%;
     font-size: 1em;
-    background: #b87a28;
+    background: map-get($colors, base);
   }
   
   #nav label.menu {
@@ -13,9 +13,9 @@
     font-size: 1.1em;
     margin: 0;
     cursor: pointer;
-    background: #f74a06;
+    background: map-get($colors, base);
     line-height: 2em;
-    color: #bfe1fb;
+    color: map-get($colors, profile);
   }
   ß
   #nav label.menu:after {
@@ -24,7 +24,7 @@
     top: 0.2em;
     content: "\2261"; /*meny ikonet på mobil*/
     font-size: 1.8em;
-    color: white;
+    color: map-get($colors, profile);
   }
   
   /*dölj checkboxen*/
@@ -48,17 +48,17 @@
   
   #nav ul li a {
     display: block;
-    color: white;
+    color: map-get($colors, profile);
   }
   
   /*Själva megamenu på mobilen*/
   #nav ul.megamenu ul li a {
-    color: white;
+    color: map-get($colors, accent);
     padding-left: 2.5em;
   }
   
     #nav ul.megamenu ul li a:hover {
-      color: red;
+      color: map-get($colors, profile);
     }
   
   /*Formuläret*/
@@ -93,7 +93,7 @@
     }
   
     #nav {
-      background: #916c55;
+      background: map-get($colors, base);
       font-size: 1em;
       box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 1);
     }
@@ -159,7 +159,7 @@
   
     /*ändra li färgen till blå vid hover*/
     #nav > ul > li:hover {
-      background: #4096ee;
+      background: map-get($colors, base);
     }
     
   /*vår stora megamenu*/
@@ -171,9 +171,9 @@
       top: -900px;
       left: 0;
       padding: 40px 40px 0 40px;
-      background: #4096ee;
+      background: map-get($colors, base);
       text-align: left;
-      border-top: 5px solid #4096ee;
+      /*border-top: 5px solid #4096ee;*/
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
       z-index: 1;
     }
@@ -185,7 +185,7 @@
     #nav ul.megamenu ul {
       flex: 1 1 20%;
       margin-bottom: 20px;
-      color: #000;
+      color: map-get($colors, accent);
       box-shadow: none;
     }
   
