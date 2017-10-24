@@ -1,0 +1,15 @@
+header{
+    background: map-get($colors, base);
+}
+
+.logo h1{
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.logo h4{
+    padding-top: 0;
+    margin-left: 2rem;
+}

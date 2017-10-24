@@ -37,3 +37,5 @@ Header/meny: Tobias
 Body: Johan
 
 SCSS-maps färg/brytpunkter: Tobias
+
+Footer: Tobias
