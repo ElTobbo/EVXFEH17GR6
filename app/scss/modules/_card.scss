@@ -1,7 +1,9 @@
+.card-img{
+@extend %card;
+}
 @supports (grid-area: auto) {
    @include respond-to('pc') {
        .card-img {
-           @extend %card;
            width: 100%;
            filter: grayscale(100%);
            &:hover {

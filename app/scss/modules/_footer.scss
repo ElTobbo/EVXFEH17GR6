@@ -22,13 +22,50 @@
 #contact2{
     @extend #contact1;
 }
-
-@include respond-to("pc") {
+@supports (grid-area: auto) {
+    @include respond-to("pc") {
+    
+    /*varje artikel får ett grid-area-namn */
+    #author1 {grid-area: a1;} 
+    #author2 {grid-area: a2;}
+    #contact1 {grid-area: c1;}
+    #contact2 {grid-area: c2;}
+    
     .credits{
-        background-color: map-get($colors , base)
+        background-color: map-get($colors , base);
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "a1 ... ... ... a2 ... ..."
+        "... ... c1 ... ... ... c2";
     }
+
     #author1{
-        @include circle(100px);
+        @include circle(150px);
         background-color: map-get($colors, filter);
+        text-align: center;
+        z-index: 8;
+    }
+    .bubble1{
+        @include circle(200px);
+        background-color: map-get($colors, secondary);
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    .bubble2{
+        @include circle(250px);
+        background-color: map-get($colors, secondary);
+        grid-column: 4/6;
+        grid-row: 1/3;
+    }
+
+    .bubble3{
+        @include circle(100px);
+        background-color: map-get($colors, secondary);
+        grid-column: 6/8;
+        grid-row: 2/3;
     }
     }
+}

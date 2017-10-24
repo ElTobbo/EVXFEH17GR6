@@ -17,5 +17,6 @@
     @mixin circle($size) {
       width: $size;
       height: $size;
+      line-height: $size;
       border-radius: 100%;
  }
