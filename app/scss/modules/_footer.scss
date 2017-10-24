@@ -42,15 +42,15 @@
     }
 
     #author1{
-        @include circle(150px);
+        @include circle(170px);
         background-color: map-get($colors, filter);
         text-align: center;
         z-index: 8;
     }
     .bubble1{
-        @include circle(200px);
+        @include circle(200x);
         background-color: map-get($colors, secondary);
-        grid-column: 2/4;
+        grid-column: 1/4;
         grid-row: 1/3;
     }
 
@@ -62,7 +62,7 @@
     }
 
     .bubble3{
-        @include circle(100px);
+        @include circle(160px);
         background-color: map-get($colors, secondary);
         grid-column: 6/8;
         grid-row: 2/3;
